@@ -1,0 +1,783 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --first-color: #dc3845;
+    --first-color-alt: #d42b39;
+    --title-color: #282525;
+    --text-color: #5d5656;
+    --text-color-light: #918889;
+    --body-color: #fff;
+    --container-color: #fff;
+    --first-color-dark: #db4d59;
+    --title-color-dark: #f3f2f2;
+    --text-color-dark: #c2bdbd;
+    --body-color-dark: #251819;
+    --container-color-dark: #2f2223;
+    --font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+    position: relative;
+}
+
+body {
+    background: var(--body-color-dark);
+}
+
+button:active {
+    transform: scale(1.03);
+}
+
+nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--body-color-dark);
+}
+
+.logo_section {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+
+.nav_links {
+    display: flex;
+    gap: 75px;
+}
+
+.nav_links ul {
+    display: flex;
+    list-style-type: none;
+    gap: 75px;
+}
+
+.christmas_text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--title-color-dark);
+}
+
+.nav_links ul li a {
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: var(--title-color-dark);
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    gap: 100px;
+}
+
+.hero img {
+    width: 50%;
+}
+
+.hero_elements {
+    width: 480px;
+    height: 286px;
+}
+
+.hero_elements h1 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 140%;
+    color: var(--title-color-dark);
+}
+
+.hero_elements p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 19px;
+    color: var(--text-color-dark);
+    margin-top: 23px;
+    margin-bottom: 55px;
+}
+
+.hero_elements button {
+    border-radius: 64px;
+    width: 210px;
+    height: 73px;
+    background: var(--first-color);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: var(--body-color);
+    border: none;
+}
+
+/*
+ ********************
+   first - section 
+ ********************
+ */
+
+.section_one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.section_one h3 {
+    width: 245px;
+    height: 75px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    color: var(--title-color-dark);
+    margin-top: 90px;
+}
+
+.surprises_sec_one {
+    display: flex;
+    gap: 170px;
+    padding-bottom: 45px;
+}
+
+.surprise_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 160px;
+    height: 208px;
+}
+
+.surprise_card img {
+    padding-bottom: 19px;
+    width: 70%;
+}
+
+.surprise_card h4 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: var(--title-color-dark);
+}
+
+.surprise_card p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: var(--text-color-dark);
+}
+
+/*
+***********************
+    second - section
+*********************** 
+*/
+
+.section_two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    padding-top: 52px;
+    padding-bottom: 52px;
+}
+
+.send_good_wishes h2 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 40px;
+    color: var(--title-color-dark);
+}
+
+.send_good_wishes p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--text-color-dark);
+    margin-top: 24px;
+    padding-bottom: 40px;
+}
+
+.send_good_wishes button {
+    border-radius: 64px;
+    width: 215px;
+    height: 56px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: var(--body-color);
+    background: var(--first-color);
+    border: none;
+}
+
+
+/*
+***********************
+    third - section
+*********************** 
+*/
+
+.section-three {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-top: 80px;
+}
+
+.section-three h1 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    color: var(--title-color-dark);
+    margin-bottom: 70px;
+}
+
+.gift_cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    gap: 50px;
+}
+
+.gift_card {
+    border-radius: 12px;
+    width: 260px;
+    height: 300px;
+    box-shadow: 0 4px 24px 0 rgba(48, 29, 30, 0.1);
+    background: var(--container-color-dark);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    position: relative;
+}
+
+.little_heart_image {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.centered-card {
+    width: 190px;
+}
+
+.centered-card h3 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--title-color-dark);
+}
+
+.centered-card p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--text-color-dark);
+}
+
+/*
+***********************
+    fourth - section
+*********************** 
+*/
+
+.section_four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.section_four h1 {
+    margin-bottom: 70px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    color: var(--title-color-dark);
+}
+
+.new_gifts_cards {
+    display: flex;
+    gap: 90px;
+}
+
+.new_gifts_card {
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    height: 300px;
+    background: var(--container-color-dark);
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+.new_gifts_card h3 {
+    padding-top: 32px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--title-color-dark);
+}
+
+.new_gifts_card p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--text-color-dark);
+}
+
+.new_gift_card_img {
+    background-color: #d42b39;
+    border-radius: 0 0 50% 50%;
+    height: 185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new_gift_card_img img {
+    width: 150px;
+    height: 150px;
+}
+
+.the_white_heart_box {
+    position: absolute;
+    border-radius: 4px 4px 12px 4px;
+    width: 36px;
+    height: 36px;
+    background: var(--first-color);
+    display: flex;
+    object-fit: contain;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    bottom: 0px;
+    right: 0px;
+}
+
+/*
+***********************
+    fifth - section
+*********************** 
+*/
+
+.section_five {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 87px;
+}
+
+.send_message {
+    width: 86%;
+    height: auto;
+    min-height: 430px;
+    border-radius: 32px;
+    background: var(--container-color-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_box_send_message {
+    width: 280px;
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.left_box_send_message h1 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 50px;
+    color: var(--body-color);
+}
+
+.container_send_message {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.sending_good_wishes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sending_good_wishes form input {
+    border-radius: 64px;
+    height: 60px;
+    width: 300px;
+    background: var(--body-color-dark);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 10px;
+    text-align: center;
+    color: var(--text-color-light);
+    border: none;
+}
+
+.sending_good_wishes button {
+    border-radius: 64px;
+    width: 230px;
+    height: 60px;
+    background: var(--first-color);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: var(--body-color);
+    border: none;
+}
+
+/*
+***********************
+    footer - section
+*********************** 
+*/
+
+footer {
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.centering_footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo_santa_clause {
+    display: flex;
+    margin-bottom: 30px;
+    gap: 4px;
+}
+
+.footer_text {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer_text_card h5 {
+    margin-bottom: 30px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 25px;
+    color: var(--title-color-dark);
+
+}
+
+.texts-inside-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 19px;
+    color: var(--text-color-dark);
+}
+
+.texts-inside-footer img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+}
+
+.second_pic_footer {
+    position: absolute;
+    left: 240px;
+    bottom: 160px;
+}
+
+.first_pic_footer {
+    position: absolute;
+    right: 100px;
+    bottom: 270px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--text-color-light);
+    height: 200px;
+}
+
+
+
+/*
+***********************
+    media - section
+*********************** 
+*/
+
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .hero h1 {
+        font-size: 35px;
+    }
+
+    .nav_links ul {
+        display: none;
+    }
+
+    .nav-links {
+        gap: 120px;
+    }
+
+    .moon_image {
+        display: none;
+    }
+
+    .sun_image {
+        display: block !important;
+    }
+
+    .santa_clause_head {
+        width: 30px;
+        height: 30px;
+    }
+
+    .bar_menu_img {
+        display: block !important;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 22px;
+        gap: 20px;
+    }
+
+    .hero img {
+        width: 100%;
+    }
+
+
+    .hero_elements {
+        text-align: center;
+    }
+
+    .section_one {
+        padding-top: 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section_one h3 {
+        font-size: 32px;
+    }
+
+    .surprise_card {
+        margin-bottom: 80px;
+        width: 155px;
+        height: 176px;
+    }
+
+    .surprise_card p {
+        font-size: 20px;
+    }
+
+    .surprises_sec_one {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+        width: 70%;
+    }
+
+    .section_two {
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .send_good_wishes {
+        text-align: center;
+    }
+
+    .send_good_wishes h2 {
+        font-size: 42px;
+    }
+
+    .send_good_wishes p {
+        font-size: 21px;
+    }
+
+    .section_two img {
+        margin-top: -100px;
+    }
+
+    .section_two button {
+        width: 230px;
+        height: 78px;
+        font-size: 19px;
+    }
+
+    .section-three {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-three {
+        padding-top: 20px;
+    }
+
+    .section-three h1 {
+        font-size: 35px;
+    }
+
+    .gift_cards {
+        width: 80%;
+        gap: 45px;
+    }
+
+    .gift_card {
+        width: 184px;
+        height: 225px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .gift_card img {
+        width: 100px;
+        height: 100px;
+
+    }
+
+    .little_heart_image {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        display: none;
+    }
+
+    .gift_card h3 {
+        font-size: 16px;
+    }
+
+    .gift_card p {
+        font-size: 10px;
+    }
+
+    .centered-card {
+        width: 80%;
+        padding-bottom: 20px;
+        height: 50px;
+    }
+
+    .new_gifts_cards {
+        flex-wrap: wrap;
+        width: 75%;
+        justify-content: center;
+    }
+
+    .new_gifts_card {
+        width: 280px;
+        height: 340px;
+    }
+
+    .send_message {
+        width: 90%;
+        height: 700px;
+        justify-content: center;
+    }
+
+    .sending_good_wishes {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .left_box_send_message {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .left_box_send_message h1 {
+        margin-top: 50px;
+        font-size: 40px;
+    }
+
+    .container_send_message {
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .container_send_message img {
+        margin-top: 70px;
+    }
+
+    .section_five {
+        padding-top: 60px;
+    }
+
+    .footer_text{
+        flex-direction: column;
+        gap: 40px;
+        width: 90%;
+    }
+
+    .centering_footer{
+        justify-content: center;
+        align-items: center;
+    }
+}
